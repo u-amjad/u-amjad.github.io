@@ -13,7 +13,7 @@ description: > # this means to ignore newlines until "baseurl:"
   AI and machine learning for brain imaging, biomedical image processing, and
   bioinformatics.
 baseurl: ""
-url: "https://usmanamjad.github.io"
+url: "https://usmanamjad87.github.io"
 
 include:
   - .htaccess
