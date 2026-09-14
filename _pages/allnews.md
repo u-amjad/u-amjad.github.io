@@ -1,13 +1,15 @@
 ---
-title: "News"
+title: "All news"
 layout: textlay
-excerpt: "Allan Lab at Leiden University."
+excerpt: "All news"
 sitemap: false
-permalink: /allnews.html
+permalink: /allnews
 ---
 
-# News
+# All news
 
-{% for article in site.data.news %}
-<p>{{ article.date }} <br> {{ article.headline | markdownify}}</p>
+<div markdown="0">
+{% for item in site.data.news %}
+<p>{{ item.date }} &nbsp; {{ item.headline }}</p>
 {% endfor %}
+</div>

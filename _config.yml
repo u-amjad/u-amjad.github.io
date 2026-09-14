@@ -1,21 +1,29 @@
 # Welcome to Jekyll!
 #
-# This config file is meant for settings that affect your whole blog, values
+# This config file is meant for settings that affect your whole site, values
 # which you are expected to set up once and rarely need to edit after that.
 # For technical reasons, this file is *NOT* reloaded automatically when you use
 # 'jekyll serve'. If you change this file, please restart the server process.
 
 # Site settings
-title: The Allan Lab
-email: your-email@domain.com
+title: Intelligent Computing & Vision Research Group
+email: usmanamjad@neduet.edu.pk
 description: > # this means to ignore newlines until "baseurl:"
-  Website of the AllanLab.
+  Research lab at NED University of Engineering & Technology, Karachi, working on
+  AI and machine learning for brain imaging, biomedical image processing, and
+  bioinformatics.
 baseurl: ""
-url: ""
+url: "https://usmanamjad.github.io"
 
 include:
   - .htaccess
   - _pages
+
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - README.md
+  - vendor
 
 sass:
   sass_dir: _sass
@@ -26,8 +34,6 @@ highlighter: rouge
 lsi: false
 excerpt_separator: "\n\n"
 incremental: false
-
-
 
 # Markdown Processing
 kramdown:
