@@ -6,11 +6,41 @@ sitemap: false
 permalink: /team/
 ---
 
+<style>
+  .pi-photo {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    object-position: center top;
+    float: left;
+    margin-right: 25px;
+    margin-bottom: 15px;
+    border-radius: 4px;
+  }
+  .member-photo {
+    width: 140px;
+    height: 140px;
+    object-fit: cover;
+    object-position: center top;
+    float: left;
+    margin-right: 20px;
+    margin-bottom: 10px;
+    border-radius: 4px;
+  }
+  @media (max-width: 600px) {
+    .pi-photo, .member-photo {
+      width: 110px;
+      height: 110px;
+      margin-right: 15px;
+    }
+  }
+</style>
+
 ## Principal Investigator
 
 <div class="row" style="margin-bottom: 40px;">
 <div class="col-sm-12 clearfix">
-  <img src="{{ site.url }}{{ site.baseurl }}/images/teampic/ua.png" class="img-responsive" width="22%" style="float: left; margin-right: 25px; margin-bottom: 15px;" />
+  <img src="{{ site.url }}{{ site.baseurl }}/images/teampic/ua.png" class="pi-photo" alt="Usman Amjad" />
   <h4 style="margin-top: 0;">Usman Amjad, Ph.D. <small>(<a href="https://cct.neduet.edu.pk/sites/default/files/csit/CV_new/Usman25.pdf">Curriculum Vitae</a>)</small></h4>
   <i>Associate Professor</i><br>
   <i>Department of Computer Science and Information Technology (CSIT)</i><br>
@@ -32,7 +62,7 @@ permalink: /team/
 
 <div class="row" style="margin-bottom: 25px;">
 <div class="col-sm-12 clearfix">
-  <img src="{{ site.url }}{{ site.baseurl }}/images/teampic/{{ member.photo }}" class="img-responsive" width="15%" style="float: left; margin-right: 20px; margin-bottom: 10px;" />
+  <img src="{{ site.url }}{{ site.baseurl }}/images/teampic/{{ member.photo }}" class="member-photo" alt="{{ member.name }}" />
   <h4 style="margin-top: 0;">{{ member.name }}</h4>
   <i>{{ member.info }}</i><br>
   <a href="mailto:{{ member.email }}">{{ member.email }}</a>

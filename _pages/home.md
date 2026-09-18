@@ -8,19 +8,19 @@ permalink: /
 
 # Welcome to the Intelligent Computing & Vision Research Group
 
-Our research aims to move beyond conventional AI approaches toward intelligent, multimodal, and optimized systems that connect perception, learning, and decision-making across real-world applications.
+Our research focuses on developing intelligent, efficient, and meaningful AI systems that connect perception, learning, and decision-making to address real-world challenges.
+Our work lies at the intersection of Artificial Intelligence, Computer Vision, Medical AI, Intelligent Systems, Edge/IoT AI, and Optimization.
 
-Our research lies at the intersection of Artificial Intelligence, Computer Vision, Medical AI, Intelligent Systems, Edge/IoT AI, and Optimization, with the goal of developing intelligent and efficient computational methods for solving real-world problems across diverse domains.
+Our primary focus is AI for healthcare, including medical image analysis, disease detection, biomedical data analysis, and multimodal approaches for more accurate and interpretable medical decision support.
 
-In the area of medical AI, we investigate computational approaches for medical image analysis, disease detection and characterization, and the analysis of complex biomedical data.
+We also investigate resource-efficient AI for edge and IoT environments, as well as optimization techniques for improving the performance and practical deployment of intelligent systems.
 
-Our research also explores intelligent and resource-efficient AI systems for edge and IoT environments, addressing challenges related to computational efficiency, optimization, and deployment in practical settings.
+An emerging direction of our research explores multimodal and biologically informed AI, particularly the integration of medical imaging with complementary biomedical data to uncover meaningful relationships across heterogeneous sources.
+Our mission is to develop AI-based computational methods that are accurate, efficient, interpretable, and practical for real-world applications.
 
-An emerging direction of our work focuses on multimodal and biologically informed AI, particularly the integration of medical imaging with multimodal biomedical data, through which we aim to develop intelligent and context-aware models that uncover meaningful relationships across heterogeneous data sources and contribute to more accurate and interpretable disease assessment.
 
-Our mission is to develop efficient and meaningful AI-based computational methods that solve real-world challenges across vision, healthcare, intelligent systems, and edge computing.
 
-**[Join us]({{ site.url }}{{ site.baseurl }}/vacancies) — we welcome motivated Bachelor's, Master's and PhD students interested in our research.**
+**[Research Opportunities]({{ site.url }}{{ site.baseurl }}/vacancies) available for motivated Bachelor's, Master's and PhD students.**
 
 ## Funding support
 

@@ -1,12 +1,12 @@
 ---
-title: "Join Us"
+title: "Research Opportunities"
 layout: textlay
-excerpt: "Join Us"
+excerpt: "Research Opportunities"
 sitemap: false
 permalink: /vacancies
 ---
 
-# Join Us
+# Research Opportunities
 
 We welcome motivated students interested in machine learning, deep learning, computer vision, medical image analysis, and intelligent systems.
 

@@ -1,19 +1,41 @@
 - name: Noor Uddin Qureshi
-  photo: np.png
-  info: PhD Student
+  photo: nd.png
+  info: PhD research Student
   email: noor.uddin.qureshi@gmail.com
 
 - name: Mahrukh Tariq
-  photo: np.png
-  info: MS Student
+  photo: mahrukh.jpeg
+  info: MS research Student
   email: tariq.mahrukh98@gmail.com
 
-- name: Noor Fatima
-  photo: np.png
-  info: Bachelor Student
-  email: fatima4603113@neduet.edu.pk
 
 - name: Muhammad Ghulam Abbas
-  photo: np.png
-  info: MS Student
-  email: xyz
+  photo: abbas.png
+  info: MS research Student
+  email: ghulamabbaswork297@gmail.com
+
+- name: Noor Fatima
+  photo: noorr.jpeg
+  info: Bachelor research Student
+  email: fatima4603113@cloud.neduet.edu.pk
+
+- name: Syed Mustehsan Akhtar Kazmi
+  photo: Kazmi.png
+  info: Research intern
+  email: kazmi4631386cloud.neduet.edu.pk
+
+- name: Fizza Aman
+  photo: fizzaa.png
+  info: Research intern
+  email: fizzakhannna@gmail.com
+
+-  name: Muhammad Umer Farooq
+   photo: umar.png
+   info: Research intern
+   email: mumerfarooq.ned@gmail.com
+
+-  name: ROSHANAE RAFI 
+   photo: ro.jpeg
+   info: Research intern
+   email: rafi4831052@cloud.neduet.edu.pk
+

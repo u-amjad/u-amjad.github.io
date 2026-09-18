@@ -90,4 +90,8 @@ firstp {
     margin-left: 30px;
     margin-right: 30px;
 }
+p, li {
+  text-align: justify;
+  hyphens: auto;
+}
 
