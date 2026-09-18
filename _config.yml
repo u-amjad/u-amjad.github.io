@@ -12,8 +12,8 @@ description: > # this means to ignore newlines until "baseurl:"
   Research lab at NED University of Engineering & Technology, Karachi, working on
   AI and machine learning for brain imaging, biomedical image processing, and
   bioinformatics.
-baseurl: ""
 url: "https://usman-amj.github.io"
+baseurl: ""
 
 include:
   - .htaccess
