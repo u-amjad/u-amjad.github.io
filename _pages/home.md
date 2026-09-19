@@ -6,7 +6,9 @@ sitemap: false
 permalink: /
 ---
 
-# Welcome to the Intelligent Computing & Vision Research Group
+# Welcome to the ICV Research Group
+
+<img src="{{ site.url }}{{ site.baseurl }}/images/inst/hm.png" class="img-responsive" style="width: 100%; max-width: 700px; margin: 0 auto 25px auto; display: block;" alt="ICV Research Group" />
 
 Our research focuses on developing intelligent, efficient, and meaningful AI systems that connect perception, learning, and decision-making to address real-world challenges.
 Our work lies at the intersection of Artificial Intelligence, Computer Vision, Medical AI, Intelligent Systems, Edge/IoT AI, and Optimization.

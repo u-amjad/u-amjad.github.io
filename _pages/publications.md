@@ -40,7 +40,7 @@ Complete list on [Google Scholar](https://scholar.google.com/citations?user=OXKm
 
 25. A. Shafiq, H. Tariq, F. Alvi, and U. Amjad. [Voice Recognition System Design Aspects for Robotic Car Control](https://d1wqtxts1xzle7.cloudfront.net/80629190/20190319-libre.pdf?1644652344=&response-content-disposition=inline%3B+filename%3DVoice_Recognition_System_Design_Aspects.pdf&Expires=1789670431&Signature=abQGW6VDBDB7Ino30XLEfNGZ9oByU2ztYCnDH7QSg8veqmzlPGXAT0uinNbbmmEtvjmSMm3ooKxEY9IjOLh~JeAD7Y1alHCANIYRrkXeaJ7hk1QGoXLQyqUnQAHZyf-SpGpp1~GLQT~rGYI~GKRta8I~5H~v2VfeTP9M6cl6CbSa75qpj7FtcNBgb7n7xlV5Z9I79rOMbeYDB-Qffm-nBnhkjzywdHpVGXNkqkdyAUFjvI4vMXWIMN4S5jSO7Ua~6sYARLUggnp3PwjNds4v19sVX~NeYSOlX2FhmRcXV8CMTrFZFTyoGYwcdX3zieBe2MAoPdQFZJwPvm8IDpQ7Nw__&Key-Pair-Id=APKAJLOHF5GGSLRBV4ZA). *International Journal of Computer Science and Network Security (IJCSNS)*, 19(1), 1, 2019.
 
-26. S. M. A. Burney, T. Jilani, H. Tariq, Z. Asim, U. Amjad, and S. S. Mohammad. [A Portfolio Optimization Algorithm Using Fuzzy Granularity Based Clustering](10.70594/brain/v10.i2/16). *BRAIN: Broad Research in Artificial Intelligence and Neuroscience*, 10(2), 2019.
+26. S. M. A. Burney, T. Jilani, H. Tariq, Z. Asim, U. Amjad, and S. S. Mohammad. [A Portfolio Optimization Algorithm Using Fuzzy Granularity Based Clustering](https://doi.org/10.70594/brain/v10.i2/16). *BRAIN: Broad Research in Artificial Intelligence and Neuroscience*, 10(2), 2019.
 27. U. Amjad, T. A. Jilani, H. Tariq, and A. Hussain. [A Quantum-Based Evolutionary Algorithm for Stock Index and Bitcoin Price Forecasting](https://doi.org/10.14569/IJACSA.2018.090917). *International Journal of Advanced Computer Science and Applications*, 9(9), 2018.
 28. H. Tariq, A. Samreen, and U. Amjad. [Haze Removal Using Improved Automatic Quick Shift Segmentation](https://doi.org/10.17654/DM020020295). *Advances and Applications in Discrete Mathematics*, 20(2), 295–304, 2018.
 29. H. Tariq, T. Jilani, E. Ali, S. Faraz, and U. Amjad. [Recurrence Relation for Projectile Simulation Project and Game-Based Learning](https://doi.org/10.14569/IJACSA.2018.091270). *International Journal of Advanced Computer Science and Applications*, 9(12), 2018.
@@ -52,3 +52,12 @@ Complete list on [Google Scholar](https://scholar.google.com/citations?user=OXKm
 
 1. T. A. Jilani, U. Amjad, J. Jaafar, and S. Hassan. [An Improved Heuristic-Based Fuzzy Time Series Forecasting Model Using Genetic Algorithm](https://doi.org/10.1109/ICCISci.2012.6297247). *2012 International Conference on Computer & Information Science (ICCIS)*, 2012.
 2. T. A. Jilani, N. Mastorakis, and U. Amjad. [A Hybrid Genetic Algorithm and Particle Swarm Optimization Based Fuzzy Time Series Model for TAIFEX and KSE-100 Forecasting](https://www.wseas.us/e-library/conferences/2012/Algarve/BICA/BICA-37.pdf). *NAUN First International Conference on Biological Inspired Computation*, 2012.
+
+<script>
+  document.querySelectorAll('a[href^="http"]').forEach(function (a) {
+    if (a.hostname !== window.location.hostname) {
+      a.target = '_blank';
+      a.rel = 'noopener';
+    }
+  });
+</script>
