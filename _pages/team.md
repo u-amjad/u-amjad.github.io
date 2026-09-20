@@ -34,6 +34,13 @@ permalink: /team/
       margin-right: 15px;
     }
   }
+    .pi-photo, .member-photo {
+    transition: transform 0.25s ease, box-shadow 0.25s ease;
+  }
+  .pi-photo:hover, .member-photo:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 8px 20px rgba(0,0,0,0.18);
+  }
 </style>
 
 ## Principal Investigator

@@ -1,19 +1,17 @@
 <style>
-  body {
-    padding-top: 0 !important;
-  }
+  body { padding-top: 0 !important; }
   .navbar-default {
+    background-color: #1b3a5c;
     border: none;
-    border-bottom: 1px solid #e0e0e0;
     margin-bottom: 0;
-    background-color: #fff;
   }
-  .navbar-brand {
+  .navbar-default .navbar-brand,
+  .navbar-default .navbar-brand:hover,
+  .navbar-default .navbar-brand:focus {
+    color: #fff;
     font-size: 21px;
-    font-weight: 400;
     height: auto;
-    padding-top: 18px;
-    padding-bottom: 8px;
+    padding: 18px 15px 8px 15px;
     display: flex;
     align-items: center;
   }
@@ -21,31 +19,46 @@
     height: 52px;
     width: auto;
     margin-right: 14px;
+    background: #fff;
+    padding: 3px;
+    border-radius: 3px;
   }
-  .navbar-nav > li > a {
-    padding: 10px 14px 18px 14px;
+  .navbar-default .navbar-nav > li > a {
+    color: #cfd8e3;
+    padding: 10px 14px 16px 14px;
     font-size: 14px;
     letter-spacing: 0.3px;
+    border-bottom: 3px solid transparent;
+    transition: color 0.15s, border-color 0.15s, background 0.15s;
   }
-  .navbar-nav > li > a:hover {
-    color: #2a6496;
+  .navbar-default .navbar-nav > li > a:hover {
+    color: #fff;
+    background: rgba(255,255,255,0.08);
   }
-  .navbar-header {
-    float: none;
+  .navbar-default .navbar-nav > li.active > a,
+  .navbar-default .navbar-nav > li.active > a:hover,
+  .navbar-default .navbar-nav > li.active > a:focus {
+    color: #fff;
+    font-weight: 600;
+    background: rgba(255,255,255,0.12);
+    border-bottom-color: #fff;
   }
-  .navbar-collapse {
-    border-top: none;
-    box-shadow: none;
+  .navbar-default .navbar-toggle {
+    border-color: rgba(255,255,255,0.4);
+  }
+  .navbar-default .navbar-toggle .icon-bar {
+    background-color: #fff;
+  }
+  .navbar-default .navbar-toggle:hover,
+  .navbar-default .navbar-toggle:focus {
+    background-color: rgba(255,255,255,0.15);
+  }
+  .navbar-default .navbar-collapse {
+    border-color: rgba(255,255,255,0.15);
   }
   @media (max-width: 767px) {
-    .navbar-brand {
-      font-size: 15px;
-      padding-top: 12px;
-    }
-    .navbar-brand img {
-      height: 38px;
-      margin-right: 10px;
-    }
+    .navbar-default .navbar-brand { font-size: 15px; }
+    .navbar-brand img { height: 38px; }
   }
 </style>
 
@@ -63,15 +76,15 @@
 	</div>
 	<div class="collapse navbar-collapse" id="navbar-collapse-1">
 	  <ul class="nav navbar-nav">
-		<li><a href="{{ site.url }}{{ site.baseurl }}/">Home</a></li>
-		<li><a href="{{ site.url }}{{ site.baseurl }}/research">Research</a></li>
-		<li><a href="{{ site.url }}{{ site.baseurl }}/publications">Publications</a></li>
-		<li><a href="{{ site.url }}{{ site.baseurl }}/trainings">Trainings</a></li>
-		<li><a href="{{ site.url }}{{ site.baseurl }}/vacancies">Opportunities</a></li>
-		<li><a href="{{ site.url }}{{ site.baseurl }}/team">Team</a></li>
-		<li><a href="{{ site.url }}{{ site.baseurl }}/teaching">Teaching</a></li>
-		<li><a href="{{ site.url }}{{ site.baseurl }}/pictures">Pictures</a></li>
-		<li><a href="{{ site.url }}{{ site.baseurl }}/contact">Contact</a></li>
+		<li {% if page.url == "/" %}class="active"{% endif %}><a href="{{ site.url }}{{ site.baseurl }}/">Home</a></li>
+		<li {% if page.url contains "/research" %}class="active"{% endif %}><a href="{{ site.url }}{{ site.baseurl }}/research">Research</a></li>
+		<li {% if page.url contains "/publications" %}class="active"{% endif %}><a href="{{ site.url }}{{ site.baseurl }}/publications">Publications</a></li>
+		<li {% if page.url contains "/trainings" %}class="active"{% endif %}><a href="{{ site.url }}{{ site.baseurl }}/trainings">Trainings</a></li>
+		<li {% if page.url contains "/vacancies" %}class="active"{% endif %}><a href="{{ site.url }}{{ site.baseurl }}/vacancies">Opportunities</a></li>
+		<li {% if page.url contains "/team" %}class="active"{% endif %}><a href="{{ site.url }}{{ site.baseurl }}/team">Team</a></li>
+		<li {% if page.url contains "/teaching" %}class="active"{% endif %}><a href="{{ site.url }}{{ site.baseurl }}/teaching">Teaching</a></li>
+		<li {% if page.url contains "/pictures" %}class="active"{% endif %}><a href="{{ site.url }}{{ site.baseurl }}/pictures">Pictures</a></li>
+		<li {% if page.url contains "/contact" %}class="active"{% endif %}><a href="{{ site.url }}{{ site.baseurl }}/contact">Contact</a></li>
 	  </ul>
 	</div>
   </div>
