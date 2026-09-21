@@ -8,7 +8,7 @@ permalink: /
 
 # Welcome to the ICV Research Group
 
-<img src="{{ site.url }}{{ site.baseurl }}/images/inst/hero-banner.svg" style="width: 100%; height: auto; display: block; margin-bottom: 25px;" alt="Illustration of a medical scan feeding a multimodal AI fusion node connected to biomedical data, clinical signals and an edge AI chip" />
+
 
 Our research focuses on developing intelligent, efficient, and meaningful AI systems that connect perception, learning, and decision-making to address real-world challenges.
 Our work lies at the intersection of Artificial Intelligence, Computer Vision, Medical AI, Intelligent Systems, Edge/IoT AI, and Optimization.
