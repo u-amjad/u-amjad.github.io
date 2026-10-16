@@ -1,11 +1,47 @@
+<style>
+  .side-card {
+    background: #f7f9fb;
+    border: 1px solid #e1e6eb;
+    border-radius: 4px;
+    padding: 20px 22px;
+    margin-top: 20px;
+  }
+  .side-card h4 {
+    margin-top: 0;
+    color: #1b3a5c;
+    font-weight: 600;
+  }
+  .side-card p {
+    font-size: 15px;
+    line-height: 1.5;
+    margin-bottom: 14px;
+    text-align: left;
+  }
+  .side-card .news-date {
+    font-weight: 700;
+    color: #1b3a5c;
+  }
+  .see-more {
+    display: inline-block;
+    padding: 6px 14px;
+    background: #1b3a5c;
+    color: #fff;
+    border-radius: 3px;
+    font-size: 14px;
+    text-decoration: none;
+  }
+  .see-more:hover,
+  .see-more:focus {
+    background: #2a5482;
+    color: #fff;
+    text-decoration: none;
+  }
+</style>
 
-<div class="well">
-<h4>News</h4>
-
-{% for article in site.data.news limit:9 %}
-<p>{{ article.date }}<br>{{ article.headline | markdownify}}</p>
-{% endfor %}
-
-<h4><a href="{{ site.url }}{{ site.baseurl }}/allnews.html">... see all News</a></h4>
-
-    </div>
+<div class="side-card">
+  <h4>News</h4>
+  {% for item in site.data.news limit:5 %}
+  <p><span class="news-date">{{ item.date }}</span><br>{{ item.headline }}</p>
+  {% endfor %}
+  <a class="see-more" href="{{ site.url }}{{ site.baseurl }}/allnews">See all news &rarr;</a>
+</div>
