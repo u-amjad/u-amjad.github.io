@@ -5,8 +5,32 @@ excerpt: "Pictures"
 sitemap: false
 permalink: /pictures
 ---
+## Podcast: How Does AI Learn to Optimize? | Evolutionary Algorithms Explained By Dr. Usman Amjad
+
+<div class="video-wrap" markdown="0">
+  <div class="embed-responsive embed-responsive-16by9">
+    <iframe class="embed-responsive-item"
+            src="https://www.youtube-nocookie.com/embed/hvQRJaG7l-U"
+            title="How Does AI Learn to Optimize? | Evolutionary Algorithms Explained"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            referrerpolicy="strict-origin-when-cross-origin"
+            allowfullscreen></iframe>
+  </div>
+</div>
+
 
 <style>
+   h2 {
+    font-size: 25px;
+  }
+    .video-wrap {
+    max-width: 760px;
+    margin: 15px 0 35px 0;
+  }
+  .video-wrap .embed-responsive {
+    border-radius: 4px;
+  }
   .gallery {
     display: flex;
     flex-wrap: wrap;

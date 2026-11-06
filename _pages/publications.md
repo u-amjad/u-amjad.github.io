@@ -12,7 +12,7 @@ permalink: /publications
 Complete list on [Google Scholar](https://scholar.google.com/citations?user=OXKmVO4AAAAJ).
 
 ## Journal publications
-
+1. U. Amjad, G. M. Yasmeen, F. Azeemi, and A. Raza. [Systematic Review of Quantum Machine Learning in Medical Image Analysis](https://doi.org/10.1007/s42484-026-00451-z). *Quantum Machine Intelligence*, 8, 118, 2026.
 1. S. Nand, U. Amjad, A. Raza, N. A. S. Kumari, and O. Lal. [Tuberculosis Detection in Chest X-Rays Using Pretrained Deep Learning Models: A Performance Comparison with Modified Particle Swarm Optimization](https://doi.org/10.31645/JISRC.26.24.1.11).*Journal of Independent Studies and Research Computing*, 24(1), 127–144, 2026.
 2. S. Nand, U. Amjad, A. Raza, and N. A. S. Kumari. [Enhanced Vitiligo Classification Using Firefly-Optimized DenseNet201: A Comparative Study of State-of-the-Art Transfer Learning Models](https://doi.org/10.1142/S2196888826500077). *Vietnam Journal of Computer Science*, pp. 1–28, 2026.
 3. S. Nand, A. Raza, U. Amjad, and S. Kumari. [Robust Hybrid Model for Vitiligo Skin Lesion Detection: Integrating Grey Wolf and Particle Swarm Optimization for Enhanced Feature Extraction and Classification](https://doi.org/10.32350.umt-air.52.03). *UMT Artificial Intelligence Review*, 5(2), 41–60, 2025.

@@ -40,7 +40,7 @@
 
 <div class="side-card">
   <h4>News</h4>
-  {% for item in site.data.news limit:5 %}
+  {% for item in site.data.news limit:4 %}
   <p><span class="news-date">{{ item.date }}</span><br>{{ item.headline }}</p>
   {% endfor %}
   <a class="see-more" href="{{ site.url }}{{ site.baseurl }}/allnews">See all news &rarr;</a>
