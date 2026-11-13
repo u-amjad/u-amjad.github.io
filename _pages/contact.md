@@ -19,6 +19,7 @@ Phone: 0311-4891924
 
 <ul>
   <li><a href="https://scholar.google.com/citations?user=OXKmVO4AAAAJ" target="_blank" rel="noopener">Google Scholar</a></li>
+  <li><i class="fa-solid fa-book-open"></i><a href="https://www.scopus.com/authid/detail.uri?authorId=57190247047" target="_blank" rel="noopener">Scopus</a></li>
   <li><a href="https://orcid.org/0000-0002-8263-1513" target="_blank" rel="noopener">ORCID</a></li>
   <li><a href="https://www.linkedin.com/in/usmanamjad87/" target="_blank" rel="noopener">LinkedIn</a></li>
   <li><a href="https://karachi.academia.edu/UsmanAmjad" target="_blank" rel="noopener">Academia</a></li>
